@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Card</title>
+
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+<body class="flex justify-center items-center h-screen">
+    <div class="bg-slate-500 w-4/12 h-4/6 flex justify-center items-center">
+        <div class="bg-slate-200 w-8/12 h-4/6 flex flex-col rounded-lg">
+            <div class="py-4 px-5 font-bold">The title of the card here</div>
+
+            <div class="grid grid-cols-2 bg-white w-full h-1/6 items-center p-2 px-4">
+                <div class="flex justify-center items-center text-xs bg-orange-700 text-white font-semibold w-10/12 py-1 rounded-full uppercase select-none">
+                    UNDER REVIEW
+                </div>
+                <div class="flex justify-end items-center text-xs font-semibold select-none">
+                    May 14, 1988
+                </div>
+            </div>
+            <div class="bg-white border-t border-slate-100 w-full">
+                <p class="bg-slate-200 text-left text-sm p-3 m-4 rounded-lg select-none">Here is a short comment about this employee.</p>
+            </div>
+
+            <div class="px-4 pt-2 pb-0">
+                <div class="uppercase">
+                    <label class="text-xs font-bold text-slate-600">Employee</label>
+                </div>
+                <div class="flex mt-2">
+                    <div class="bg-sky-800 text-white text-xs font-bold w-10 h-10 rounded-full flex justify-center items-center">VG</div>
+                    <div class="flex flex-col ml-4">
+                        <div class="text-sm font-bold flex pb-0.5">Mohammad Mustak</div>
+                        <div class="text-xs text-slate-600">Web Developer</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

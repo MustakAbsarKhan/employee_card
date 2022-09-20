@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-boilerplate",
+  "version": "1.0.0",
+  "description": "1. npm init -y [Initializing node project]\r 2. npm i -D tailwindcss [installing tailwindcss as developer dependency]\r 3. tailwindcss intellisense vs code plugin installing\r 4. npx tailwindcss init [making configuration file for tailwindcss and for its customization]\r 5. create source and output folder\r 6. create a css file in the source folder\r 7. add tailwind directives to source css file\r 8. create .vscode/settings.json file [to write custom settings of vs code]\r 9. add\r {\r     \"css.validate\": false,\r     \"tailwindCSS.emmetCompletions\":true\r }\r 10. update the package.json file with -\r \"build\":\"tailwindcss -i src/srcTailwind.css -o ./output/outputTailwind.css -w\"\r 11. link html with output css file-\r <link rel=\"stylesheet\" href=\"./output/outputTailwind.css\">\r 12.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
